@@ -1,0 +1,141 @@
+html, body {
+    background-color: rgb(209, 209, 209);
+
+}
+
+.controller-section {
+    background-color: rgb(19, 19, 19);
+    height: 700px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    gap: 30px;
+}
+
+.character-name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button-wrapper {
+    height: 100px;
+    width: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.move-button {
+    height: 48px;
+    width: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 13px rgb(88, 88, 88);
+}
+
+.move-button:hover {
+    border: 1px solid white;
+    box-shadow: inset 0 0 13px rgb(255, 255, 255);
+}
+
+.move-button:nth-child(1) {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.action-button {
+    width: 90px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 13px rgb(88, 88, 88);
+    font-size: 15px;
+    
+}
+
+.action-button:hover {
+    border: 1px solid white;
+    box-shadow: inset 0 0 13px rgb(255, 255, 255);
+}
+
+.position {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cooldown-timer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.teleports {
+    background-color: rgb(82, 54, 22);
+    height: 700px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 10px;
+    gap: 30px;
+    position: absolute;
+    top: 10px;
+    box-shadow: inset 0 0 13px #000000;
+}
+
+.teleports-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.teleport-button {
+    background-color:rgb(86, 21, 236);
+    box-shadow: inset 0 0 13px #000000;
+    border-radius: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    height: 100px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+    transition: 0.5s;
+}
+
+.teleport-button:hover {
+    box-shadow: inset 0 0 13px rgb(0, 153, 255);
+
+    transition: 0.5s;
+}
+
+
